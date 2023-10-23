@@ -1,0 +1,4 @@
+# Project exclude paths
+/app-api/app-api-base/target/
+/app-api/app-api-core/target/
+/app-api/app-api-server/target/

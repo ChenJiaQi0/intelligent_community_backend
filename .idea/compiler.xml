@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-api-server" />
+        <module name="app-api-core" />
+        <module name="app-api-base" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-api" target="18" />
+      <module name="app_api" target="18" />
+      <module name="app_api_base" target="18" />
+      <module name="web-api-base" target="18" />
+      <module name="web-api-base (1)" target="18" />
+      <module name="web-api-base (2)" target="18" />
+      <module name="web-api-core" target="18" />
+      <module name="web-api-server" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app-api-base" options="-parameters" />
+      <module name="app-api-core" options="-parameters" />
+      <module name="app-api-server" options="-parameters" />
+      <module name="app_api" options="" />
+      <module name="app_api_base" options="-parameters" />
+      <module name="intelligent_community_backend" options="" />
+      <module name="web-api-base" options="-parameters" />
+      <module name="web-api-base (1)" options="-parameters" />
+      <module name="web-api-core" options="-parameters" />
+      <module name="web-api-server" options="-parameters" />
+    </option>
+  </component>
+</project>

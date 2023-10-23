@@ -1,0 +1,3 @@
+## 用户生成jwt字符串的secretKey
+jwt:
+  secretKey: intelligent_community
